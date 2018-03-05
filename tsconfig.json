@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "removeComments": true,
+    "outDir": "dist/umd",
+    "moduleResolution": "node",
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/index.ts"
+  ],
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "genDir": "dist/umd",
+    "skipTemplateCodegen": true,
+    "debug": false
+  }
+}
