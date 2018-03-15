@@ -2,7 +2,7 @@
 
 This allow define configuration of objects request
 
-## Using HttpModule in an Ionic 2 app
+## Using HttpModule in an Angular4 app
 
 ```typescript
 import { NgModule } from '@angular/core';
